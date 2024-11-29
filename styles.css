@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Homemade+Apple&family=Sevillana&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.portada {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(./imagenes/fondo_boca.jpg);
+  background-position: center;
+  position: relative;
+  gap: 50px;
+  /* border: 1px solid red; */
+}
+.portada img {
+  width: 300px;
+}
+
+/* .portada h1 {
+  font-family: "Homemade Apple", cursive;
+  font-optical-sizing: auto;
+  font-size: 8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #a87648;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+.portada p {
+  font-size: 3rem;
+  font-family: "Homemade Apple", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.audio {
+  display: flex;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  max-width: 100px;
+}
+
+.frase {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(./imagenes/frase_pesca.jpg);
+  background-position: center;
+  gap: 80px;
+}
+
+.frase img {
+  width: 100px;
+}
+
+.frase p {
+  text-align: center;
+  max-width: 80%;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.frase span {
+  font-size: 20px;
+  font-weight: 800;
+  font-size: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+.direccion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: aliceblue;
+  gap: 80px;
+  height: 130vh;
+  padding: 300px 0;
+}
+.direccion img {
+  max-width: 100px;
+}
+
+.direccion h2 {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: green;
+}
+
+.direccion__datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.iglesia,
+.fiesta {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* border: orange 3px solid; */
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  justify-content: space-between;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.iglesia h3,
+.fiesta h3 {
+  font-size: 24px;
+  font-weight: 500;
+  /* border: orange 3px solid; */
+}
+.iglesia p,
+.fiesta p {
+  font-size: 20px;
+  word-spacing: 2px;
+  display: flex;
+  gap: 30px;
+}
+
+.iglesia a,
+.fiesta a,
+.asistencia a,
+.regalos a {
+  color: aliceblue;
+  background: rgb(28, 104, 28);
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.asistencia {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(./imagenes/asistencia.jpg);
+  gap: 80px;
+  background-size: cover;
+  background-position: left;
+}
+
+.asistencia h3,
+.nosotros h3 {
+  max-width: 400px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #a87648;
+}
+
+.asistencia p {
+  font-size: 20px;
+}
+.asistencia a {
+  padding: 15px 40px;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #d6b1b7;
+  gap: 60px;
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid red; */
+}
+
+.nosotros p {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infinito {
+  max-width: 20%;
+}
+
+.nosotros__imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+.nosotros__imagenes1,
+.nosotros__imagenes2,
+.nosotros__imagenes3,
+.nosotros__imagenes4,
+.nosotros__imagenes5,
+.nosotros__imagenes6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.regalos {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 40px;
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 120px;
+  position: relative;
+  padding-bottom: 300px;
+
+  /* border: 1px solid red; */
+}
+
+.regalos img {
+  max-width: 120px;
+}
+
+.regalos p {
+  font-size: 20px;
+  /* max-width: 550px; */
+  text-align: center;
+}
+
+.regalos a {
+  padding: 15px 40px;
+}
+
+.datos_bancarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 500px;
+  background: #b89779;
+  padding: 20px 60px;
+  max-width: 80%;
+  border-radius: 20px;
+  display: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#toggle-btn {
+  display: none;
+}
+
+.datos_bancarios_btn {
+  display: block;
+}
+
+#toggle-btn:checked ~ .datos_bancarios {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background: rgb(206, 125, 125);
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* BOTONES */
+
+.btn:hover,
+.btn:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 green;
+  }
+}
+.btn {
+  background-color: green;
+  transition: 0.25s;
+}
+
+/* CONTADOR */
+
+.countdown {
+  height: 80vh;
+  width: 100%;
+  background: rgb(172, 121, 121);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px;
+}
+
+.countdown__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.countdown h3 {
+  max-width: 350px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.inner-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 17px;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.inner-counter span {
+  font-size: 36px;
+  font-weight: 400;
+  /* background: linear-gradient(#b89779, white); */
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* border: 3px solid white; */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* #days {
+  padding: 20px 18px;
+}
+
+#minutes,
+#seconds {
+  padding: 20px 25px;
+}
+#hours {
+  /* border: 1px solid blue; */
+/* padding: 20px 35px;
+} */
+.counter-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+.custom-text {
+  /* border: 1px solid blue; */
+}
+
+.inner-counter p {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 16px;
+}
+
+/* .time {
+  border: 1px solid red;
+} */
+.countdown {
+  background: linear-gradient(-45deg, blue, yellow, blue, yellow);
+  background-size: 400% 400%;
+  animation: gradient 10s ease-out infinite;
+  height: 50vh;
+  -webkit-animation: gradient 10s ease-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

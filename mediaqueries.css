@@ -1,0 +1,63 @@
+@media (min-width: 1000px) {
+  .portada {
+    background-image: url(./imagenes/fondo_boca.jpg);
+    background-size: center;
+  }
+
+  .inner-counter {
+    gap: 100px;
+  }
+  .inner-counter span {
+    font-size: 4rem;
+  }
+
+  .inner-counter p {
+    font-size: 2rem;
+  }
+  .nosotros {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .nosotros__imagenes {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* padding-left: 60px; */
+  }
+  .nosotros__imagenes img {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .nosotros__imagenes1:hover,
+  .nosotros__imagenes2:hover,
+  .nosotros__imagenes3:hover,
+  .nosotros__imagenes4:hover,
+  .nosotros__imagenes5:hover,
+  .nosotros__imagenes6:hover {
+    width: 400px;
+    transition: all 3s ease;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+  }
+}

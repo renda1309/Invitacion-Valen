@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cumple Valen</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link rel="stylesheet" href="./animation.css" />
+  </head>
+  <body onclick="PlayAudio()">
+    <main>
+      <section class="portada">
+        <img />
+        <p>Valen cumple 18</p>
+        <audio controls autoplay loop class="audio" id="music">
+          <!-- <source src="./Musica_de_pesca.mp3" type="audio/mpeg" /> -->
+        </audio>
+      </section>
+
+      <section class="frase">
+        <div class="frase_pesca"></div>
+      </section>
+      <section class="countdown">
+        <div class="countdown__title">
+          <h3>¡Contemos los dias para festejar con Valen!</h3>
+        </div>
+        <div class="container">
+          <div class="counter-box">
+            <div class="inner-counter">
+              <div class="time">
+                <span id="days">Days</span>
+                <p class="custom-text">Dias</p>
+              </div>
+              <div class="time">
+                <span id="hours">Days</span>
+                <p class="custom-text">Horas</p>
+              </div>
+              <div class="time">
+                <span id="minutes">Days</span>
+                <p class="custom-text">Minutos</p>
+              </div>
+              <div class="time">
+                <span id="seconds">Days</span>
+                <p class="custom-text">Segundos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="direccion">
+        <img src="./imagenes/GPS.jpg" alt="GPS" />
+        <h2>No te pierdas de la fiesta</h2>
+        <div class="direccion__datos">
+          <div class="fiesta">
+            <!-- <h3>Fiesta</h3> -->
+            <p>
+              28 de Diciembre, 11:00 hs, "Quinta Lion". Los Abedules 330,<br />
+              Loma Verde.
+            </p>
+            <a href="https://maps.app.goo.gl/jR3k3wvorBQ1k3tt7" class="btn"
+              >Como llegar</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="asistencia">
+        <h3>¡Confirmanos tu asistencia!</h3>
+        <!-- <p>¡Confirmanos tu asistencia!</p> -->
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfnX6NsIgUq0D2EW3Hib5BfwItpg8RcJdN1odS1T--IXC0ZVg/viewform?usp=sf_link"
+          class="btn"
+          >Confirmar Asistencia</a
+        >
+      </section>
+      <section class="nosotros">
+        <img src="./imagenes/caña_de_pescar.png" alt="caña" class="infinito" />
+        <!-- <h3>Nosotros</h3> -->
+        <p>"La vida es mejor con una caña de pescar en la mano"</p>
+        <div class="nosotros__imagenes">
+          <img
+            src="./imagenes/valen_barco.jpg"
+            alt="1"
+            class="nosotros__imagenes1"
+          />
+          <img src="./imagenes/Valen4.jpg" alt="" class="nosotros__imagenes4" />
+          <img
+            src="./imagenes/Valen2.jpg"
+            alt="2"
+            class="nosotros__imagenes2"
+          />
+          <img src="./imagenes/Valen5.jpg" alt="" class="nosotros__imagenes5" />
+          <img
+            src="./imagenes/Valen3.jpg"
+            alt="3"
+            class="nosotros__imagenes3"
+          />
+          <!-- <img
+            src="./imagenes/nosotros/58.jpg"
+            alt=""
+            class="nosotros__imagenes6"
+          /> -->
+        </div>
+      </section>
+      <!-- <section class="regalos">
+        <img src="./imagenes/regalos.png" alt="corazon en globo" />
+        <p>
+          ¡El mejor regalo es tu presencia! Si deseas realizarnos un regalo...
+        </p>
+        <label for="toggle-btn" class="btn">
+          <a class="datos_bancarios_btn" class="btn">Ver mas</a>
+        </label>
+        <input type="checkbox" id="toggle-btn" />
+
+        <div class="datos_bancarios">
+          <h3>Datos Bancarios</h3>
+          <p>Nombre del Titular: Dana Bentos</p>
+          <p>CBU: 0070145330004013690574</p>
+          <p>Alias: ISLOTE.MINUTO.CELULA</p>
+          <p>DNI: 32469112</p>
+          <p>Banco Galicia</p>
+        </div>
+      </section> -->
+    </main>
+    <footer>
+      <!-- <p>♥</p> -->
+      <p>¡Gracias por estar en este momento tan importante!</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
