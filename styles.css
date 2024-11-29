@@ -44,7 +44,7 @@
   text-align: center;
 } */
 .portada p {
-  font-size: 2 rem;
+  font-size: 30px;
   font-family: "Homemade Apple", cursive;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -63,18 +63,18 @@
 .frase {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 70vh;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-image: url(./imagenes/frase_pesca.jpg);
+  /* background-image: url(./imagenes/frase_pesca.jpg); */
   background-position: left;
   background-position-x: center;
   gap: 80px;
 }
 
 .frase img {
-  width: 100px;
+  width: 100%;
 }
 
 .frase p {
