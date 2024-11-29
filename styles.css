@@ -44,7 +44,7 @@
   text-align: center;
 } */
 .portada p {
-  font-size: 3rem;
+  font-size: 2 rem;
   font-family: "Homemade Apple", cursive;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -68,7 +68,8 @@
   align-items: center;
   align-content: center;
   background-image: url(./imagenes/frase_pesca.jpg);
-  background-position: center;
+  background-position: left;
+  background-position-x: center;
   gap: 80px;
 }
 
