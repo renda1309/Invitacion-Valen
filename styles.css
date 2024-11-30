@@ -47,7 +47,11 @@
   font-size: 30px;
   font-family: "Homemade Apple", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
   font-style: normal;
   color: #ffffff;
 }
@@ -161,7 +165,7 @@
 .asistencia a,
 .regalos a {
   color: aliceblue;
-  background: rgb(57, 50, 150);
+  background: rgb(78, 73, 150);
   padding: 15px 30px;
   font-size: 16px;
   font-weight: 700;
