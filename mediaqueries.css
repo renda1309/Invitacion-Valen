@@ -4,6 +4,10 @@
     background-size: center;
   }
 
+  .frase {
+    display: none;
+  }
+
   .inner-counter {
     gap: 100px;
   }
@@ -59,5 +63,10 @@
     -moz-transition: all 3s ease;
     -ms-transition: all 3s ease;
     -o-transition: all 3s ease;
+  }
+}
+@media (min-width: 650px) {
+  .frase {
+    display: none;
   }
 }
