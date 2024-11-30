@@ -63,6 +63,20 @@
   right: 10px;
   max-width: 100px;
 }
+.wrap {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.wrap img {
+  margin: 0px 0 0 -40px;
+  line-height: 60px;
+  position: absolute;
+  width: 10%;
+  left: 50%;
+  bottom: 0px;
+}
 
 .frase {
   display: flex;
